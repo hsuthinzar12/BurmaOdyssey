@@ -55,7 +55,7 @@ export default function Header(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ bgcolor: "#fff" }}>
+      <AppBar component="nav" sx={{ bgcolor: "#fff" }} position="static">
         <Toolbar>
           <IconButton
             color="#000"
